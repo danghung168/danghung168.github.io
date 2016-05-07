@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="26px" height="33px" viewBox="0 0 26 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15588) - http://www.bohemiancoding.com/sketch -->
+    <title>bag_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop_XMAS_DelDay" sketch:type="MSArtboardGroup" transform="translate(-1116.000000, -50.000000)">
+            <g id="main-panel" sketch:type="MSLayerGroup" transform="translate(27.000000, 46.000000)">
+                <g id="admin-menu" transform="translate(931.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <g id="bag" transform="translate(155.000000, 0.000000)">
+                        <g id="bag_icon" transform="translate(3.000000, 5.000000)">
+                            <path d="M1.46863264,8.00333333 L24.753988,8.00333333 L25.8187586,31.8233333 L0.403862069,31.8233333 L1.46863264,8.00333333" id="Fill-1" fill="#77BC1F"></path>
+                            <path d="M7.4022069,6.585 C7.4022069,6.585 7.62813793,0.333333333 13.0273103,0.104166667 C18.4264828,-0.125 18.8204138,6.585 18.8204138,6.585" id="Stroke-2" stroke="#77BC1F" stroke-width="1.5" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

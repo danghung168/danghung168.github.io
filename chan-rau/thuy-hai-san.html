@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Chan Rau Sach</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/select2.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div class="wrap">
+    <header class="container">
+        <div class="top-header">
+            <nav class="navbar navbar-default" role="navigation">
+
+                <div class="navbar-collapse navbar-ex1-collapse">
+                    <!--<ul class="nav navbar-nav pull-left col-xs-3">-->
+                    <!--<li><p>099.323.2323 |</p></li>-->
+                    <!--<li><p> 0982.323.223</p></li>-->
+                    <!--</ul>-->
+                    <div class="logo-top navbar-nav nav col-xs-2">
+                        <img src="uploads/logo_green.svg" alt="" class="">
+                    </div>
+                    <ul class="nav navbar-nav pull-right col-xs-10">
+                        <li class="shop-cart"><a href=""><span class="glyphicon glyphicon-shopping-cart">GIỎ HÀNG</span></a>
+                        </li>
+                        <li ><a href="#" data-toggle="modal" data-target="#modal-signin"> ĐĂNG NHẬP/ ĐĂNG KÝ</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+        <div class="bot-header row">
+            <div class="bot-header-right col-sm-12 col-md-12">
+                <nav class="nav-top navbar-default ">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse row" id="bs-example-navbar-collapse-1">
+                        <ul class="nav nav-tabs ">
+                            <li role="presentation" class="active"><a href="#">Trang chủ</a></li>
+                            <li role="presentation"><a href="thuc-vat.html">Thực Vật</a></li>
+                            <li role="presentation"><a href="thit.html">Thịt</a></li>
+                            <li role="presentation"><a href="thuy-hai-san.html">Thủy hải sản</a></li>
+                            <li role="presentation"><a href="#">Ăn gì</a></li>
+                            <li role="presentation"><a href="#">Bán nông sản</a></li>
+                            <li role="presentation"><a href="#">Chợ đầu mối</a></li>
+                            <li role="presentation"><a href="#">Top nông dân</a></li>
+                        </ul>
+                    </div>
+
+                </nav>
+                <div class="search-form row">
+                    <form action="" class="form-inline col-xs-12 " role="form">
+                        <div class="row">
+                            <div class="reset-padding-right col-sm-6 col-xs-12">
+                                <div class="input-group" style="width: 100%; ">
+                                    <input type="text" class="form-control" placeholder="Tim kiem...">
+                                </div>
+                            </div>
+                            <div class="reset-padding-left col-sm-6 col-xs-12 ">
+                                <div class="select-search " style="width: 50%; float: left;">
+                                    <select class="select-search js-example-basic-single " style="width: 100%;">
+                                        <option value="Ha noi" selected="selected">Địa điểm</option>
+                                        <option value="TP HCM">TP HCM</option>
+                                        <option value="TP HCM">Da Nang</option>
+                                        <option value="TP HCM">Hai Phong</option>
+                                    </select>
+                                </div>
+                                <div class="" style="width: 50%; float: left;">
+                                    <button style="width: 100%" class="button-search btn btn-danger" type="button"><span
+                                            class="glyphicon glyphicon-search"></span>Tìm kiếm
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="col-xs-12 col-sm-12">
+                        <div class="result-search">
+                            <ul>
+                                <li>Tìm kiếm nhiều nhất:</li>
+                                <li>abc</li>
+                                <li>abc</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--end search-->
+            </div>
+            <!--end bot-header-right-->
+        </div>
+        <!--end bot-header-->
+
+        <div class="banner">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="uploads/banner1.jpg" alt="Chania">
+                    </div>
+                    <div class="item">
+                        <img src="uploads/banner2.jpg" alt="Chania">
+                    </div>
+
+                    <div class="item">
+                        <img src="uploads/banner3.jpg" alt="Flower">
+                    </div>
+
+                    <div class="item">
+                        <img src="uploads/banner2.jpg" alt="Flower">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <i class=" fa fa-chevron-circle-left" aria-hidden="true"></i>
+                    <span class="sr-only">Previous</span>
+
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div
+        </div>
+        <!--end banner-->
+        <div id="modal-signin" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="row" style="margin: 0">
+                        <ul class="nav nav-tabs">
+                            <li class="reset-padding active col-md-6 "><a data-toggle="tab" href="#sign-in">Dang nhap</a></li>
+                            <li class="reset-padding col-md-6 "><a data-toggle="tab" href="#sign-up" >Dang ky</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="sign-in" class="tab-pane fade in active">
+                                <div class="col-md-12">
+                                    <form action="" role="form">
+                                        <div class="form-group">
+                                            <label for="user-name" class="">Tài khoản</label>
+                                            <input type="text" name="user-name" class="form-control" id="user-name-signin">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="pass" class="">Mật khẩu</label>
+                                            <input type="password" name="pass" class="form-control" id="pass">
+                                        </div>
+                                        <div class="form-group">
+                                            <span><a href="">Quen mat khau</a></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="submit" value="Dang nhap" class="btn btn-primary form-control">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div id="sign-up" class="tab-pane fade">
+                                <div class="col-md-12 ">
+                                    <form action="" role="form">
+                                        <div class="form-group">
+                                            <label for="user-name" class="">Tài khoản</label>
+                                            <input type="text" name="user-name" class="form-control" id="user-name-sign-up">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="pass" class="">Mật khẩu</label>
+                                            <input type="password" name="pass" class="form-control" id="pass-up">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="re-pass" class="">Nhap lai mat khau</label>
+                                            <input type="password" name="pass" class="form-control" id="re-pass">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="re-pass" class="">So dien thoai</label>
+                                            <input type="tel" name="tel" class="form-control" id="tel">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="submit" value="Dang ky" class="btn btn-primary form-control">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--modal content-->
+                </div>
+                <!--Modal dialog-->
+            </div>
+            <!--myModal-->
+    </header>
+
+    <!--end header-->
+    <div class="content container">
+        <div class="row content-1">
+            <h3 class="col-xs-12">Thuy san</h3>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="main-content img-responsive">
+                    <div class="content-img">
+                        <img src="uploads/chanh.jpg" alt="" class="img-thumbnail">
+                        <a href="detail.html" target="_blank" class="content-detail btn btn-success">Click xem chi tiet</a>
+                    </div>
+                    <div class="content-info ">
+                        <p class="text-center">Ten san pham</p>
+                        <p class="text-center">20.000vnd/1kg</p>
+                        <button class="btn btn-success center-block"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp; Thêm vào
+                            giỏ hàng
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="main-content img-responsive">
+                    <div class="content-img">
+                        <img src="uploads/nho.jpg" alt="" class="img-thumbnail">
+                        <a href="detail.html" target="_blank" class="content-detail btn btn-success">Click xem chi tiet</a>
+                    </div>
+                    <div class="content-info ">
+                        <p class="text-center">Ten san pham</p>
+                        <p class="text-center">20.000vnd/1kg</p>
+                        <button class="btn btn-success center-block"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp; Thêm vào
+                            giỏ hàng
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="main-content img-responsive">
+                    <div class="content-img">
+                        <img src="uploads/tao-tau.jpg" alt="" class="img-thumbnail">
+                        <a href="detail.html" target="_blank" class="content-detail btn btn-success">Click xem chi tiet</a>
+                    </div>
+                    <div class="content-info ">
+                        <p class="text-center">Ten san pham</p>
+                        <p class="text-center">20.000vnd/1kg</p>
+                        <button class="btn btn-success center-block"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp; Thêm vào
+                            giỏ hàng
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="main-content img-responsive">
+                    <div class="content-img">
+                        <img src="uploads/cam.jpg" alt="" class="img-thumbnail">
+                        <a href="detail.html" target="_blank" class="content-detail btn btn-success">Click xem chi tiet</a>
+                    </div>
+                    <div class="content-info ">
+                        <p class="text-center">Ten san pham</p>
+                        <p class="text-center">20.000vnd/1kg</p>
+                        <button class="btn btn-success center-block"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp; Thêm vào
+                            giỏ hàng
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="main-content img-responsive">
+                    <div class="content-img">
+                        <img src="uploads/sung.jpg" alt="" class="img-thumbnail">
+                        <a href="detail.html" target="_blank" class="content-detail btn btn-success">Click xem chi tiet</a>
+                    </div>
+                    <div class="content-info ">
+                        <p class="text-center">Ten san pham</p>
+                        <p class="text-center">20.000vnd/1kg</p>
+                        <button class="btn btn-success center-block"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp; Thêm vào
+                            giỏ hàng
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="main-content img-responsive">
+                    <div class="content-img">
+                        <img src="uploads/dau.jpg" alt="" class="img-thumbnail">
+                        <a href="detail.html"target="_blank" class="content-detail btn btn-success">Click xem chi tiet</a>
+                    </div>
+                    <div class="content-info ">
+                        <p class="text-center">Ten san pham</p>
+                        <p class="text-center">20.000vnd/1kg</p>
+                        <button class="btn btn-success center-block"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp; Thêm vào
+                            giỏ hàng
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--end content-->
+    <footer class="container-fluid" id="footer-hidden">
+
+        <div class="container">
+            <div class="col-xs-12 col-md-4">
+                <h3 class="text-center">Liên hệ các chợ đầu mối</h3>
+                <ul>
+                    <li>Cho dau moi A</li>
+                    <li>Cho dau moi A</li>
+                    <li>Cho dau moi A</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-4 ">
+                <h3 class="text-center">Liên hệ với chúng tôi</h3>
+                <ul>
+                    <li>Địa chỉ</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h3 class="text-center">Giới thiệu chung</h3>
+                <ul>
+                    <li><a href="">Về nông sản</a></li>
+                    <li><a href="">Chính sách mua hàng</a></li>
+                    <li><a href="">Hướng dẫn mua hàng</a></li>
+                    <li><a href="">Hướng dẫn bán hàng</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!--<footer class=" container-fluid" id="footer-block">-->
+    <!--<div class="container">-->
+    <!--<div class="dropdown row">-->
+    <!--<button class="btn btn-default dropdown-toggle pull-right" type="button" id="menu1" data-toggle="dropdown">-->
+    <!--<span class="caret"></span></button>-->
+    <!--<ul class="dropdown-menu col-xs-12" role="menu" aria-labelledby="menu1">-->
+    <!--<li role="presentation">Cho dau moi A</li>-->
+    <!--<li role="presentation">Cho dau moi A</li>-->
+    <!--<li role="presentation">Cho dau moi A</li>-->
+    <!--<li role="presentation">Cho dau moi A</li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <!--</footer>-->
+
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/select2.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".js-example-basic-single").select2();
+    });
+</script>
+</body>
+</html>

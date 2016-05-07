@@ -1,0 +1,39 @@
+h3{
+    margin: 0;
+}
+.content-1 {
+    margin-bottom: 30px;
+}
+#price{
+    margin: 15px 0 15px 0;
+}
+.detail{
+    margin: 10px 0 10px 0;
+}
+.price{
+    font-family: "georgia";
+    font-size: 30px ;
+    font-weight: 400;
+    color: red;
+}
+/*link*/
+.link{
+    background-color: #ECECEC;
+}
+.link li{
+    float: left;
+}
+.link li:hover {
+    background-color: red;
+}
+/*detail-review*/
+.detail-review .tab-content{
+    margin:15px 0 15px 0;
+}
+.nav-detail-review li:hover a{
+    color: red;
+}
+#stars-default{
+    margin: 10px 0 10px 0;
+
+}

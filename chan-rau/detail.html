@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Chan Rau Sach</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+          integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+            crossorigin="anonymous"></script>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
+    <link href="css/select2.min.css" rel="stylesheet"/>
+    <!--<link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/detail.css">
+
+</head>
+<body>
+<div class="wrap">
+    <header class="container">
+        <div class="top-header">
+            <nav class="navbar navbar-default" role="navigation">
+
+                <div class="navbar-collapse navbar-ex1-collapse">
+                    <!--<ul class="nav navbar-nav pull-left col-xs-3">-->
+                    <!--<li><p>099.323.2323 |</p></li>-->
+                    <!--<li><p> 0982.323.223</p></li>-->
+                    <!--</ul>-->
+                    <div class="logo-top navbar-nav nav col-xs-2">
+                        <img src="uploads/logo_green.svg" alt="" class="">
+                    </div>
+                    <ul class="nav navbar-nav pull-right col-xs-10">
+                        <li class="shop-cart"><a href=""><span class="glyphicon glyphicon-shopping-cart">GIỎ HÀNG</span></a>
+                        </li>
+                        <li ><a href="#" data-toggle="modal" data-target="#modal-signin"> ĐĂNG NHẬP/ ĐĂNG KÝ</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+        <div class="bot-header row">
+            <div class="bot-header-right col-sm-12 col-md-12">
+                <nav class="nav-top navbar-default ">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse row" id="bs-example-navbar-collapse-1">
+                        <ul class="nav nav-tabs ">
+                            <li role="presentation" class="active"><a href="#">Trang chủ</a></li>
+                            <li role="presentation"><a href="#">Thực Vật</a></li>
+                            <li role="presentation"><a href="#">Thịt</a></li>
+                            <li role="presentation"><a href="#">Thủy hải sản</a></li>
+                            <li role="presentation"><a href="#">Ăn gì</a></li>
+                            <li role="presentation"><a href="#">Bán nông sản</a></li>
+                            <li role="presentation"><a href="#">Chợ đầu mối</a></li>
+                            <li role="presentation"><a href="#">Top nông dân</a></li>
+                        </ul>
+                    </div>
+
+                </nav>
+                <div class="search-form row">
+                    <form action="" class="form-inline col-xs-12 " role="form">
+                        <div class="row">
+                            <div class="reset-padding-right col-sm-6 col-xs-12">
+                                <div class="input-group" style="width: 100%; ">
+                                    <input type="text" class="form-control" placeholder="Tim kiem...">
+                                </div>
+                            </div>
+                            <div class="reset-padding-left col-sm-6 col-xs-12 ">
+                                <div class="select-search " style="width: 50%; float: left;">
+                                    <select class="select-search js-example-basic-single " style="width: 100%;">
+                                        <option value="Ha noi" selected="selected">Địa điểm</option>
+                                        <option value="TP HCM">TP HCM</option>
+                                        <option value="TP HCM">Da Nang</option>
+                                        <option value="TP HCM">Hai Phong</option>
+                                    </select>
+                                </div>
+                                <div class="" style="width: 50%; float: left;">
+                                    <button style="width: 100%" class="button-search btn btn-danger" type="button"><span
+                                            class="glyphicon glyphicon-search"></span>Tìm kiếm
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="col-xs-12 col-sm-12">
+                        <div class="result-search">
+                            <ul>
+                                <li>Tìm kiếm nhiều nhất:</li>
+                                <li>abc</li>
+                                <li>abc</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--end search-->
+            </div>
+            <!--end bot-header-right-->
+        </div>
+        <!--end bot-header-->
+    </header>
+    <!--end header-->
+    <div class="container">
+        <div class="link col-xs-12">
+            <ul class="link nav navbar-nav ">
+                <li><a href="">Home <span class="glyphicon glyphicon-menu-right"></span></a></li>
+                <li><a href="">detail.html</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content container">
+        <div class="row content-1">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="uploads/sung.jpg" alt=""class="img-thumbnail">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="">
+                            <h3 class="bold">Ten sp</h3>
+                        </div>
+                        <div class="">
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="">
+                            Nguoi ban:
+                            <span><a href="" style="color: blue">Nguyen Van A</a></span>
+                            SDT
+
+                        </div>
+                        <div class="detail">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet blanditiis, dignissimos
+                                expedita harum hic magni modi officia, pariatur quae, quas recusandae repudiandae
+                                veniam? Ad error facilis laborum temporibus. Esse, recusandae?</p>
+                        </div>
+
+                        <div id="price">
+                            <span class="price">$30.000</span>
+                        </div>
+                        <button class="btn btn-success center-block"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp; Thêm vào
+                            giỏ hàng
+                        </button>
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    <!--end content-->
+        <div class="detail-review row">
+            <div class="col-md-12">
+                <ul class="nav-detail-review nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#detailt" class="bold">DETAIL</a></li>
+                    <li><a data-toggle="tab" href="#review" class="bold">REVIEW</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="detailt" class="tab-pane fade in active">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, asperiores commodi
+                            consectetur consequatur corporis delectus deserunt esse harum magnam nam natus praesentium
+                            quae qui rem sit tempore ut veritatis, vero.</p>
+                    </div>
+                    <div id="review" class="tab-pane fade">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <span class="bold">Binh chon</span>
+                            <div id="stars-default">
+                                <input type=hidden name="rating"/>
+                            </div>
+                            <form action="" role="form">
+                                <div class="form-group">
+                                    <label for="useName-rating">Ten *</label>
+                                    <input type="text" class="form-control" id="useName-rating">
+                                </div>
+                                <div class="form-group">
+                                    <label for="area-rating">Noi dung *</label>
+                                    <textarea class="form-control"  rows="5" name="" id="area-rating" placeholder="Noi dung..."></textarea>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                    <!--end review-->
+                </div>
+                <!--end tab-content-->
+            </div>
+
+        </div>
+        <!--end detail-review-->
+    </div>
+    <!--end content-->
+   <footer class="container-fluid" id="footer-hidden">
+        <div class="container" style="margin-top: 30px">
+            <div class="col-xs-12 col-md-4">
+                <h3 class="text-center">Liên hệ các chợ đầu mối</h3>
+                <ul>
+                    <li>Cho dau moi A</li>
+                    <li>Cho dau moi A</li>
+                    <li>Cho dau moi A</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-4 ">
+                <h3 class="text-center">Liên hệ với chúng tôi</h3>
+                <ul>
+                    <li>Địa chỉ</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h3 class="text-center">Giới thiệu chung</h3>
+                <ul>
+                    <li><a href="">Về nông sản</a></li>
+                    <li><a href="">Chính sách mua hàng</a></li>
+                    <li><a href="">Hướng dẫn mua hàng</a></li>
+                    <li><a href="">Hướng dẫn bán hàng</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/select2.min.js"></script>
+<script src="js/rating.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".js-example-basic-single").select2();
+    });
+</script>
+</body>
+</html>
