@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	margin-top: 30px
+}
+.image{
+	position: relative;
+	margin-left: 30px; 
+	margin-top: 30px
+}
+.text-yellow{
+	position: absolute;
+	bottom: 10px;
+	background-color: yellow;
+	font-size: 25px
+}
