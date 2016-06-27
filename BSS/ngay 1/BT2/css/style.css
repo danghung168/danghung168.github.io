@@ -26,6 +26,7 @@ a{
     padding-top: 25px;
     font-size: 24px;
     color: #010066;
+    font: Arial;
 }
 .bot-header{
     height: 270px;;
@@ -58,12 +59,15 @@ a{
 .nav ul li:hover a{
     color: white;
     text-decoration: none;
-
 }
 .content .main-content{
     margin-top: 5px;
     background-color: #cccccc;
     padding: 40px 25px 50px 25px;
+}
+.main-content p{
+    font: Tahoma;
+    font-size: 12px;
 }
 .footer{
     width:100%;
@@ -71,5 +75,7 @@ a{
     background-color: #666666;
 }
 .footer .text-footer{
-
+    font: Verdana;
+    font-size: 11px;
+    color: white;
 }
